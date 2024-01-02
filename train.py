@@ -23,4 +23,4 @@ with Live(save_dvc_exp=True) as live:
         accuracy = round(accuracy_score(y_test, y_pred), 2)
 
         name = f"MPL{conf[0], conf[1]}_{accuracy}"
-        live.log_plot(name, data, "0", "2", "linear", name, "epochs", "loss")
+        live.log_plot(name, data, "0", "1", "linear", name, "epochs", "loss")

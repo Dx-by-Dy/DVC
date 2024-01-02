@@ -2,21 +2,21 @@ plots:
 - dvclive/plots/custom/MPL(50, 10)_0.99.json:
     template: linear
     x: '0'
-    y: '1'
+    y: '2'
     title: MPL(50, 10)_0.99
     x_label: epochs
     y_label: loss
 - dvclive/plots/custom/MPL(100, 10)_0.97.json:
     template: linear
     x: '0'
-    y: '1'
+    y: '2'
     title: MPL(100, 10)_0.97
     x_label: epochs
     y_label: loss
 - dvclive/plots/custom/MPL(10, 10)_0.97.json:
     template: linear
     x: '0'
-    y: '1'
+    y: '2'
     title: MPL(10, 10)_0.97
     x_label: epochs
     y_label: loss
