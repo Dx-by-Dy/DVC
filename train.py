@@ -17,9 +17,10 @@ with Live(save_dvc_exp=True) as live:
 
         LC = clf.loss_curve_
         data = np.column_stack((range(len(LC)), LC))
+        data = np.column_stack((data, LC))
 
         y_pred = clf.predict(x_test)
         accuracy = round(accuracy_score(y_test, y_pred), 2)
 
         name = f"MPL{conf[0], conf[1]}_{accuracy}"
-        live.log_plot(name, data, "0", "1", "linear", name, "epochs", "loss")
+        live.log_plot(name, data, "0", "2", "linear", name, "epochs", "loss")

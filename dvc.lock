@@ -5,5 +5,5 @@ stages:
     deps:
     - path: train.py
       hash: md5
-      md5: 8365f24e13c5e22670e835a556c2e237
-      size: 930
+      md5: 1dc8a1f6e28f61b80eeb0442efbb0f50
+      size: 928
