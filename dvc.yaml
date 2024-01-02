@@ -1,1 +1,13 @@
-{}
+plots:
+- dvclive/plots/custom/Iris.json:
+    template: linear
+    x: '0'
+    y: '1'
+    title: MPL(50, 10)_0.99
+    x_label: epochs
+    y_label: loss
+stages:
+  train:
+    cmd: python train.py
+    deps:
+    - train.py
